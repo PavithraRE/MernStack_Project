@@ -1,0 +1,48 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background: #555;
+  color: white;
+}
+
+.navbar-left {
+  flex: 1;
+}
+
+.navbar-center {
+  flex: 2;
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.navbar-right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end; /* Pushes logout button to the right */
+}
+
+/* Navbar Links */
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+/* Make Logout button blue */
+.navbar button {
+  background: #007BFF;
+  border: none;
+  padding: 8px 12px;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background 0.3s;
+}
+
+.navbar button:hover {
+  background: #0056b3;
+}

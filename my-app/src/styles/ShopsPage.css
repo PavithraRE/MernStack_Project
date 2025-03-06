@@ -1,0 +1,47 @@
+.shops-page {
+  text-align: center;
+  padding: 20px;
+  background: #f8f9fa;
+  min-height: 100vh;
+}
+
+.shops-page h2 {
+  color: #007bff;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.shop-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.shop-card {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+  text-align: center;
+  width: 250px;
+}
+
+.shop-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.shop-card h3 {
+  margin-top: 10px;
+  color: #333;
+  font-size: 1.2rem;
+}
+
+.shop-card:hover {
+  transform: scale(1.05);
+}

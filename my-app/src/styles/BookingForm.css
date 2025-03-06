@@ -1,0 +1,91 @@
+
+.booking-page {
+  min-height: 100vh;
+  width: 100vw;
+  background: url('https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2') 
+              no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.booking-container {
+  width: 90%;
+  max-width: 500px;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.booking-container h2 {
+  font-size: 1.8rem;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+
+.booking-container label {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+  display: block;
+  margin-bottom: 5px;
+  text-align: left;
+  padding-left: 5px;
+}
+
+
+.booking-container input {
+  width: calc(100% - 20px); 
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+  transition: border 0.3s ease-in-out;
+  display: block;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.booking-container input:focus {
+  border: 1px solid #007bff;
+  outline: none;
+}
+
+.booking-container button {
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.booking-container button:hover {
+  background-color: #0056b3;
+}
+
+.shop-container, .location-container {
+  margin: 15px 0;
+  padding: 10px;
+  background: rgba(240, 240, 240, 0.9);
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.shop-container label, .location-container label {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 5px;
+}
