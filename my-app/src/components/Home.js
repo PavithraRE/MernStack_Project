@@ -20,7 +20,7 @@ const Home = () => {
         </div>
       </div>
 
-      {/* Services Section */}
+      { }
       <div className="services">
         <button className="services-button" onClick={() => navigate("/booking")}>
           Our Services

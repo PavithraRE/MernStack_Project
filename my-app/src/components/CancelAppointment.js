@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
-import "../styles/CancelAppointment.css"; // Import the CSS file
+import "../styles/CancelAppointment.css"; 
 
 const CancelAppointment = () => {
   const location = useLocation();
@@ -15,8 +15,8 @@ const CancelAppointment = () => {
   const [confirmationMessage, setConfirmationMessage] = useState("");
 
   const handleCancel = () => {
-    setConfirmationMessage("✅ Your appointment has been successfully canceled.");
-    setTimeout(() => navigate("/"), 3000); // Redirect after 3 seconds
+    setConfirmationMessage("Your appointment has been successfully canceled.");
+    setTimeout(() => navigate("/"), 3000); 
   };
 
   return (

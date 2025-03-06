@@ -14,8 +14,7 @@ const LoginPage = () => {
     e.preventDefault();
     const mockUser = { email, role: "customer" };
     login(mockUser);
-
-    // Redirect user to the page they were trying to access (e.g., BookingForm)
+    
     const redirectPath = location.state?.from?.pathname || "/";
     navigate(redirectPath);
   };

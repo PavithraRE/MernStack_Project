@@ -6,7 +6,7 @@ import BookingPage from "./BookingPage";
 import ShopsPage from "./ShopsPage";
 import BookingForm from "./BookingForm";
 import ConfirmationPage from "./ConfirmationPage";
-import CancelAppointment from "./CancelAppointment";  // Import Cancel Page
+import CancelAppointment from "./CancelAppointment";  
 import LoginPage from "./LoginPage";
 import Navbar from "./Navbar";
 import ProtectedRoute from "./ProtectedRoute";

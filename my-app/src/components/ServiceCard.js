@@ -1,12 +1,12 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import "../styles/ServiceCard.css"; // Import CSS
+import "../styles/ServiceCard.css"; 
 
 const ServiceCard = ({ service }) => {
-  const navigate = useNavigate(); // Hook for navigation
+  const navigate = useNavigate(); 
 
   const handleBooking = () => {
-    navigate(`/book/${service.name}`); // Redirect to booking form
+    navigate(`/book/${service.name}`); 
   };
 
   return (

@@ -3,7 +3,6 @@
   font-family: Arial, sans-serif;
 }
 
-/* Banner Section */
 .banner {
   position: relative;
   width: 100%;
@@ -34,14 +33,11 @@
 .banner-text p {
   font-size: 1.2rem;
 }
-
-/* Services Section */
 .services {
   padding: 40px;
   background-color: #f5f5f5;
 }
 
-/* Blue Button for Our Services */
 .services-button {
   background-color: #007BFF;
   color: white;
@@ -59,7 +55,6 @@
   transform: scale(1.05);
 }
 
-/* Service Cards */
 .service-list {
   display: flex;
   justify-content: center;
