@@ -15,7 +15,7 @@ const CancelAppointment = () => {
   const [confirmationMessage, setConfirmationMessage] = useState("");
 
   const handleCancel = () => {
-    setConfirmationMessage("Your appointment has been successfully canceled.");
+    setConfirmationMessage("✅Your appointment has been successfully canceled.");
     setTimeout(() => navigate("/"), 3000); 
   };
 

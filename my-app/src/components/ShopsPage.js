@@ -29,7 +29,7 @@ const shopData = {
     { name: "Blissful Escape", image: "https://images.pexels.com/photos/3822837/pexels-photo-3822837.jpeg?auto=compress&cs=tinysrgb&w=600" }
   ],
   Fitness: [
-    { name: "Power Gym", image: "https://images.pexels.com/photos/3838388/pexels-photo-3838388.jpeg?auto=compress&cs=tinysrgb&w=600" },
+    { name: "Power Gym", image: "https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" },
     { name: "FitZone", image: "https://images.pexels.com/photos/1552249/pexels-photo-1552249.jpeg?auto=compress&cs=tinysrgb&w=600" },
     { name: "Athletic Club", image: "https://images.pexels.com/photos/414029/pexels-photo-414029.jpeg?auto=compress&cs=tinysrgb&w=600" }
   ],
@@ -60,7 +60,7 @@ const ShopsPage = () => {
 
   return (
     <div className="shops-page">
-      <h2>Available {service} Shops</h2>
+      <h2>Available {service} Venue</h2>
       <div className="shop-list">
         {shops.map((shop, index) => (
           <div key={index} className="shop-card" onClick={() => navigate(`/book/${service}/${shop.name}`)}>
